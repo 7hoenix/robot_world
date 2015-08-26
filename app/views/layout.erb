@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang ='en'>
+  <head>
+    <title>Robot World</title>
+    <link href='/css/bootstrap.css' rel='stylesheet'>
+    <link href='/css/main.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class='col-md-12 navbar navbar-default navbar-static-top'>
+      <a href='/' class='navbar-brand'>Robot World</a>
+      <ul class='nav navbar-nav navbar-right'>
+        <li><a href = "/">Dashboard</a></li>
+        <li><a href = "/robots">Robots</a></li>
+        <li><a href = "/robots/new">Create Robot</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+      <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script src='js/bootstrap.js'></script>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+---
+total: 11
+robots:
+- id: 7
+  name: sally
+  city: denver
+  state: CO
+  avatar: sallydenver
+  birthday: '1986-12-07'
+  date_hired: '2010-04-13'
+  department: Engineering
+- id: 8
+  name: sally
+  city: denver
+  state: CO
+  avatar: sallydenver
+  birthday: '1986-12-07'
+  date_hired: '2010-04-13'
+  department: Engineering
+- id: 9
+  name: sally
+  city: denver
+  state: CO
+  avatar: sallydenver
+  birthday: '1986-12-07'
+  date_hired: '2010-04-13'
+  department: Engineering
