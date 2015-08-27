@@ -2,4 +2,7 @@ source 'https://rubygems.org'
 
 gem 'sinatra', require: 'sinatra/base'
 gem 'shotgun'
-gem 'byebug'
+gem "rspec"
+gem "pry"
+gem "capybara"
+gem "launchy"

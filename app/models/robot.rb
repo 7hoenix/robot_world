@@ -4,7 +4,7 @@ class Robot
               :city,
               :state,
               :avatar,
-              :birthdate,
+              :birthday,
               :date_hired,
               :department
 
