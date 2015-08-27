@@ -1,4 +1,4 @@
-<h1>Robots</h1>
+<h1 id="robots">Robots</h1>
 <% @robots.each do |robot| %>
   <div class="container well">
     <div class="col-md-4 text-center">
@@ -6,8 +6,7 @@
       <%= robot.city %>, <%= robot.state %></br>
       </br>
       </br>
-      <a href="/robots/<%= robot.id %>" class="btn btn-lg btn-primary">View
-        <%= robot.name %></a>
+      <a href="/robots/<%= robot.id %>" class="btn btn-lg btn-primary" value="View <%= robot.name %>">View <%= robot.name %></a>
     </div>
     <div class="col-md-4">
       <img src="https://robohash.org/<%= robot.avatar %>.png">
