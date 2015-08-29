@@ -3,14 +3,14 @@ require_relative "../spec_helper"
 RSpec.describe Robot do
   describe "#initialize" do
     it "assigns the proper attributes" do
-      attributes = {"id" => 1,
-                    "name" => "justin",
-                    "city" => "Denver",
-                    "state" => "CO",
-                    "avatar" => "justinDenver",
-                    "birthday" => "12-07-1986",
-                    "date_hired" => "12-07-1986",
-                    "department" => "marketing",
+      attributes = {:id => 1,
+                    :name => "justin",
+                    :city => "Denver",
+                    :state => "CO",
+                    :avatar => "justinDenver",
+                    :birthday => "12-07-1986",
+                    :date_hired => "12-07-1986",
+                    :department => "marketing",
       }
       robo = Robot.new(attributes)
 

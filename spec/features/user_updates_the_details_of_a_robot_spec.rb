@@ -15,17 +15,16 @@ describe "Edit robot", :type => :feature do
                     :date_hired => "12-07-1986",
                     :department => "Marketing",
       }
-      RobotWorld.create(attributes)
+      robot_id = RobotWorld.create(attributes)
 
     visit "/robots"
     expect(page).to have_content("justin")
 
-    visit "/robots/1/edit"
+    visit "/robots/#{robot_id}/edit"
     fill_in("robot[name]", with: "Phoenix")
     fill_in("robot[city]", with: "Sacremento")
     click_button("Submit")
 
-    save_and_open_page
     expect(page).to have_content("Phoenix")
     expect(page).to have_content("Sacremento")
     expect(page).to have_content("Marketing")

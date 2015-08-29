@@ -2,7 +2,7 @@ require_relative "../spec_helper"
 
 describe "New robot", :type => :feature do
   before :each do
-    RobotWorld.delete_all
+    # RobotWorld.delete_all
   end
 
   it "creates a new robot" do
